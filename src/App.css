@@ -1,6 +1,6 @@
 .App {
   height: 100vh;
-  background-color: #250352;
+  background-color: #fe7201;
   overflow: auto;
   text-align: center;
 }
@@ -25,19 +25,19 @@
   margin: 0;
   margin-top: -500px;
   font-size: 2.5rem;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   color: white;
 }
 
 .sub-header {
   margin-top: -10px;
   font-size: 1.1rem;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   color: white;
 }
 
 .connected-header {
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   color: white;
   position: relative;
   left: -530px;
@@ -58,19 +58,29 @@
 }
 
 .connect-wallet-button {
-  background-color: #360477;
+  background-color: #393837;
   background-size: 200% 200%;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   position: relative;
   width: 150px;
   top: -500px;
   left: 1100px;
 }
 
+.connect-wallet-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.disconnect-wallet-button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
 .disconnect-wallet-button {
-  background-color: #360477;
+  background-color: #393837;
   position: relative;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 0.9rem;
   left: 500px;
   top: -60px;
@@ -89,7 +99,7 @@
   background-color: #360477;
   background-size: 200% 200%;
   margin-left: 10px;
-  font-family: "Permanent Marker", cursive;
+  font-family: 'Permanent Marker', cursive;
   font-size: 1rem;
 }
 
@@ -126,7 +136,7 @@
   overflow-x: hidden;
 }
 
-.connected-container input[type="text"] {
+.connected-container input[type='text'] {
   display: inline-block;
   color: white;
   padding: 10px;
