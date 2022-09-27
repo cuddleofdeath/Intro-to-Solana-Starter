@@ -87,6 +87,10 @@
   width: 250px;
 }
 
+.connected-container {
+  height: auto;
+}
+
 .form {
   position: relative;
   left: 495px;
